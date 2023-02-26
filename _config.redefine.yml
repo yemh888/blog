@@ -184,7 +184,7 @@ website_count:
 # ---------------------------------------------------------------------------------------
 local_search:
   enable: true
-  preload: true # Preload the search data when the page loads
+  preload: false # Preload the search data when the page loads
 
 # ---------------------------------------------------------------------------------------
 # Comment plugin
