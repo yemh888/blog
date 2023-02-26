@@ -43,7 +43,7 @@ style:
 
   # First screen
   first_screen:
-    enable: true
+    enable: false
     background_image:
       light: https://evan.beee.top/img/wallhaven-wqery6-light.webp # background image of the first screen, use relative path or external link (if your website is in subdirectory, use external link)
       dark: https://evan.beee.top/img/wallhaven-wqery6-dark.webp # background image of the first screen, use relative path or external link (if your website is in subdirectory, use external link)
