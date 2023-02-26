@@ -3,7 +3,7 @@
 
 if [[ -d .git ]]; then
 # create git hooks 
-cat > .git/hooks/post-update <<EOF
+cat > .git/hooks/pre-push <<EOF
 #!/bin/bash
 
 pwd > /tmp/test
