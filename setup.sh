@@ -7,7 +7,6 @@ cat > .git/hooks/post-update <<EOF
 #!/bin/bash
 
 pwd > /tmp/test
-#
 
 EOF
 else 
